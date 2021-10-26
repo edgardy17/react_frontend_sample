@@ -1,15 +1,39 @@
 .App {
+  font-family: Avenir;
+  font-size: 20px;
   text-align: center;
+  background-color: rgba(222,222,222,.4);
+  border: 2px solid rgba(222,222,222,.5);
+  padding: 50px;
+  display: flexbox;
+  cursor: pointer;
+  margin-bottom: 50px;
+  margin-inline-start: 200px;
+  margin-inline-end: 200px;
+}
+
+img {
+  margin-left:215px;
+  position:relative;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  float:top;
+  
+}
+
+#title{
+  font-size: 30px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 15vmin;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color:white;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,3 +45,11 @@
 .App-link {
   color: #61dafb;
 }
+
+/**.Author{
+  padding:
+  margin:
+  display: flex;
+  background-color: black;
+}
+**/
