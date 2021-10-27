@@ -5,7 +5,8 @@ import Display from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1 id='header'>Top Posts by Author</h1>
+    <a id='myLogo' href="./"><h1 id='logo'>Views From The Wing</h1></a>
+    <h2 id='header'>Top Posts by Author</h2>
     <Display name="Jessica" />
     <Display name="Alejandro"/>
     <Display name="Eric"/>
