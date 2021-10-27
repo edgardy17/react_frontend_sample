@@ -80,7 +80,10 @@ class Display extends React.Component {
                         <nav><Link to ={'/'+item.name}>{item.name}</Link></nav>
                         <br/>
                         <article id="title">
-                        {item.posts[0]}
+                          {item.posts[0]}
+                          <h6>
+                          {item.desc[0]}
+                          </h6>
                         </article>
                       </p>
                       <br/>
