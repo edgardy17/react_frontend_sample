@@ -9,30 +9,7 @@ import { NavItem } from 'shards-react';
 
 const {author1, author2, author3, author4} = resources;
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            lol
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer">
-
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
-
-class Display extends React.Component { 
+class App extends React.Component { 
    constructor(props) {
        super(props);
   
@@ -102,4 +79,4 @@ class Display extends React.Component {
 }
 }
 
-export default Display;
+export default App;
